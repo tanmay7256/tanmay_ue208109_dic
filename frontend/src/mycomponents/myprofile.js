@@ -3,10 +3,10 @@ import logo from '../images/logo.webp';
 import Axios from "axios"
 export const Profile = () => {
     const [email, setemail] = useState("tanmayarora1112@gmail.com");
-    const [data, setdata] = useState();
+    const [data, setdata] = useState({ name: "Tanmay", email: "tanmayarora1112@gmail.com", dob: "11-12-2001" });
     const getdata = async () => {
         const emailtosend = { email }
-        Axios.post('http://localhost:4000/postprofile', emailtosend)
+        await Axios.post('http://localhost:4000/postprofile', emailtosend)
             .then(response => {
                 setdata(response.data)
             })
