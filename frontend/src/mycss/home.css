@@ -1,0 +1,204 @@
+:root {
+    --primary-color: #0996f4;
+    --background-color: #eef0f2;
+    --card-bg-color: #fff;
+    --card-shadow-color: rgba(0, 0, 0, 0.1);
+    --text-color: black;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.login-content {
+    display: flex;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.login-content>div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-image {
+    width: 80%;
+}
+
+.login-image img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.login-form {
+    margin-left: 40px;
+    background-color: var(--card-bg-color);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px var(--card-shadow-color);
+}
+
+.login-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    border-radius: 4px;
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot-password a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.main-section {
+    background-color: var(--background-color);
+    background-color: #daebf6;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section-content {
+    width: 50%;
+    padding-right: 80px;
+}
+
+.main-section-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-section-quote {
+    font-size: 18px;
+}
+
+.main-section-search {
+    display: flex;
+    margin-top: 40px;
+}
+
+.main-section-search input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    /* width: 80px; */
+}
+
+.main-section-search button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.main-section-image {
+    width: 50%;
+}
+
+.main-section-image img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px var(--card-shadow-color);
+    width: 100%;
+}
+
+.stream-section {
+    background-color: var(--background-color);
+    padding: 80px;
+}
+
+.stream-section-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stream-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.stream-card {
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px var(--card-shadow-color);
+    overflow: hidden;
+}
+
+.stream-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.stream-card-content {
+    padding: 20px;
+}
+
+.stream-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stream-card-description {
+    font-size: 14px;
+    color: var(--text-color);
+}

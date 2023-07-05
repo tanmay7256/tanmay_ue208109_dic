@@ -1,0 +1,154 @@
+.profile-container {
+    padding: 60px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.profile {
+    margin: 2rem;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    flex: 70%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+}
+
+.profile-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.profile-details {
+    margin-bottom: 15px;
+}
+
+.profile-details h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-details li {
+    margin-bottom: 10px;
+}
+
+.profile-details li strong {
+    font-weight: bold;
+}
+
+.update-profile-btn {
+    padding: 10px 20px;
+    background-color: #0996f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-profile-btn:hover {
+    background-color: #043e75;
+}
+
+
+
+
+/* password section */
+.password-section {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.password-section>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+}
+
+
+.password-section .section-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.password-form {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="password"] {
+    padding: 8px;
+    width: 100%;
+}
+
+.update-password-btn {
+    padding: 10px 20px;
+    background-color: #0996f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-password-btn:hover {
+    background-color: #043e75;
+}
+
+/* feedback */
+.form-group label {
+    font-size: 2rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+}
